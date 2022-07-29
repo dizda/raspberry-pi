@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="89e9aeb7-1d59-4c50-bf63-626a75d9f17a" name="anypi">
+        <fileTransfer rootFolder="/home/john/lcd_screen/LCM1602_3v3_I2C" accessType="SFTP" host="anypi.local" port="22" sshConfigId="1957a422-d767-409e-8c8a-bcf6bc3e0b07" sshConfig="john@anypi.local:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
