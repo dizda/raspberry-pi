@@ -54,7 +54,7 @@ FS_5x8_DOTS              = 0x00 # D2:0 5x8 Dots Format
 
 # local constants
 
-_DISPLAY_LOGS = True
+_DISPLAY_LOGS = False
 
 _i2cDev = smbus.SMBus(1)
 
